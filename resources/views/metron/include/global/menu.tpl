@@ -25,7 +25,7 @@
                         </li>
                         <li class="menu-item menu-item-submenu menu-item-rel">
                             <a href="/user/shop" class="menu-link">
-                                <i class="fas fa-store"></i><span class="menu-text"><strong>商店</strong></span>
+                                <i class="fas fa-store"></i><span class="menu-text"><strong>购买套餐</strong></span>
                             </a>
                         </li>
                         <li class="menu-header">我的</li>
@@ -199,25 +199,25 @@
                         <li class="menu-header">使用</li>
                         <li class="menu-item menu-item-submenu menu-item-rel">
                             <a href="/user/node" class="menu-link">
-                                <i class="fas fa-server"></i> <span class="menu-text"><strong>节点列表</strong></span>
+                                <i class="fas fa-server"></i> <span class="menu-text"><strong>可用列表</strong></span>
                             </a>
                         </li>
                         <li class="menu-item menu-item-submenu menu-item-rel">
                             <a href="/user/help" class="menu-link">
-                                <i class="fas fa-book"></i><span class="menu-text"><strong>下载和教程</strong></span>
+                                <i class="fas fa-book"></i><span class="menu-text"><strong>客户端和教程</strong></span>
                             </a>
                         </li>
                         {if $config['enable_ticket'] === true}
                             <li class="menu-item menu-item-submenu menu-item-rel">
                                 <a href="/user/ticket" class="menu-link">
                                     <i class="fas fa-headset"></i><span
-                                            class="menu-text"><strong>工单支持</strong></span>
+                                            class="menu-text"><strong>联系客服</strong></span>
                                 </a>
                             </li>
                         {/if}
                         <li class="menu-item menu-item-submenu menu-item-rel">
                             <a href="/user/setting/sublink" class="menu-link">
-                                <i class="fas fa-book"></i><span class="menu-text"><strong>节点设置</strong></span>
+                                <i class="fas fa-book"></i><span class="menu-text"><strong>泄漏重置</strong></span>
                             </a>
                         </li>
                         <li class="menu-item menu-item-submenu menu-item-rel" data-menu-toggle="click"
